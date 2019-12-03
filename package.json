@@ -1,0 +1,22 @@
+{
+  "name": "serve_the_market",
+  "version": "0.0.1",
+  "description": "Radiks of Free the Market",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vital-edu/serve-the-market.git"
+  },
+  "author": "Eduardo Vital Alencar Cunha <vitaldu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vital-edu/serve-the-market/issues"
+  },
+  "homepage": "https://github.com/vital-edu/serve-the-market#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
