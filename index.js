@@ -4,6 +4,7 @@ const express = require('express');
 const { setup } = require('radiks-server');
 
 const app = express();
+const port = process.env.PORT || 4000
 
 app.get('/', () => {
   setup({
@@ -13,6 +14,6 @@ app.get('/', () => {
   }).catch((err) => console.log(err));
 })
 
-app.listen(4000, () => {
-  console.log('server is running at port 4000')
+app.listen(port, () => {
+  console.log(`server is running at port ${port}`)
 });
