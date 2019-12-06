@@ -4,7 +4,8 @@
   "description": "Radiks of Free the Market",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "radiks-server",
+    "development": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
